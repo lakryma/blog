@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat; /* image de fond unique */
+    background-image: url(../../../Pictures/18425360_1829792817034475_657257857314425105_n.jpg);
+    background-size: cover; /* image etendu sur tout le fond */
+    background-attachment: fixed; /* fond de page fixe */
+    color: white;
+}
+
+#post{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.titreBillet {
+    margin-bottom : 0px;
+}
+
+#global {
+    min-height: 100%;  /* Voir commentaire sur html et body plus haut */
+    background: #333534;
+    width: 70%;
+    margin: auto;    /* Permet de centrer la div */
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#contenu {
+    margin-bottom : 30px;
+}
+
+#titreBlog, #piedBlog {
+    text-align: center;
+}
+
+#titreReponses {
+    font-size : 100%;
+}
